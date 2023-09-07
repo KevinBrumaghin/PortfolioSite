@@ -7,16 +7,16 @@
     <noscript>
         <link rel="stylesheet" href="app.css" media="screen">
     </noscript>
-    <title>Document</title>
+    <title>Kevin Brumaghin - Front End Web Developer</title>
 </head>
 <body>
     <h1 class="titleLg">KEVIN BRUMAGHIN</h1>
     <h2 class="titleSm">front-end web developer</h2>
     <top-nav>
-            <img class="pic1" id="about" src="pics/about.jpg" alt="">
-            <img class="pic2" id="projects" src="pics/projects.jpg" alt="">
-            <img class="pic3" id="motivation" src="pics/motivation.jpg" alt="">
-            <img class="pic4" id="contact" src="pics/contact.jpg" alt="">
+            <a href="#aboutme"><img class="pic1" src="pics/about.jpg" alt=""></a>
+            <a href="#projects"><img class="pic2" src="pics/projects.jpg" alt=""></a>
+            <a href="#motivation"><img class="pic3" src="pics/motivation.jpg" alt=""></a>
+            <a href="#motivation"><img class="pic4" src="pics/contact.jpg" alt=""></a>
     </top-nav>
     <top-text>
         <h2 class="picNav1">ABOUT ME</h2>
@@ -24,7 +24,7 @@
         <h2 class="picNav3">MY MOTIVATION</h2>
         <h2 class="picNav4">CONTACT ME</h2>
     </top-text>
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
         <h2 class="sectionHeader">About Me</h2>
         <pic-bio>
             <img class="me" id="me" src="pics/me.jpg" alt="" width="250" height="250">
@@ -60,7 +60,7 @@
             </tools-used>
         </my-skills>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2 class="sectionHeaderP">Projects</h2>
         <project-slot>
             <a href="https://twinbelle.netlify.app/"><img class="projPic" src="pics/twinbelle.jpg" alt="" width="384" height="216"></a>
@@ -109,7 +109,7 @@
                 </proj-details>
         </project-slot>
     </section>
-    <section class="motivation">
+    <section class="motivation" id="motivation">
         <h2 class="sectionHeaderM">My Motivation</h2>
         <pic-bio>
             <img class="me" id="me" src="pics/motivation2.jpg" alt="" width="375" height="375">
@@ -121,5 +121,6 @@
         </pic-bio>
     </section>
     <link href="https://db.onlinewebfonts.com/c/e2a04c0988cc2b42ed31cfa6a9dea6cd?family=Moderne" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="app.js">
 </body>
 </html>
