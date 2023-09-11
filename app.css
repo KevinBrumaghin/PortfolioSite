@@ -84,6 +84,7 @@ pic-bio{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 p{
     margin-left: 3%;
