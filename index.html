@@ -132,7 +132,7 @@
             <h3>Send A Mesage</h3>
             <h4>Contact me for more info!</h4>
             <fieldset>
-              <input placeholder="Your name" name="text" type="text" tabindex="1" required autofocus>
+              <input placeholder="Your name" name="_subject" type="text" tabindex="1" required autofocus>
             </fieldset>
             <fieldset>
               <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
@@ -142,6 +142,9 @@
             </fieldset>
             <fieldset>
               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" value="Send">Submit</button>
+            </fieldset>
+            <fieldset>
+                <input type="hidden" name="_next" value="https://portfolio.kbrumaghin.com/">
             </fieldset>
           </form>
     </section>
