@@ -299,7 +299,7 @@ fieldset {
     border: 1px solid #aaa;
 }
 
-::-webkit-input-placeholder {
+/* ::-webkit-input-placeholder {
     color: #888;
 }
 
@@ -313,4 +313,4 @@ fieldset {
 
 :-ms-input-placeholder {
     color: #888;
-}
+} */
