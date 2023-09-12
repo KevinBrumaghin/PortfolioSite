@@ -10,6 +10,7 @@ body{
     margin: auto;
     padding: auto;
     font-family: "Moderne";
+    min-width: 1200px;
 }
 .titleLg{
     display: flex;
@@ -68,6 +69,7 @@ top-text{
     background-color: rgba(235, 235, 255, 0.8);
     display: flex;
     flex-direction: column;
+    min-width: 1200px;
 }
 .sectionHeader{
     color: rgb(16, 16, 16);
@@ -132,6 +134,7 @@ project-slot{
     border-radius: 20px;
     margin: 30px 100px;
     padding: 35px;
+    min-width: 1200px;
 }
 .projPic{
     object-fit: cover;
@@ -177,6 +180,7 @@ proj-details{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 1200px;
 }
 .sectionHeaderM{
     color: rgb(16, 16, 16);
@@ -203,6 +207,7 @@ proj-details{
     margin-top: 100px;
     width: 100vw;
     height: 600px;
+    min-width: 1200px;
 }
 
 .container {
