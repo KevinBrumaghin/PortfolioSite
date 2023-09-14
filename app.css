@@ -18,7 +18,6 @@ body{
     font-size: 35px;
     color: rgb(225, 255, 254);
     margin-bottom: -20px;
-    padding-top: 75px;
 }
 .titleSm{
     display: flex;
@@ -27,6 +26,23 @@ body{
     color: rgb(225, 255, 254);
     padding-left: 10px;
     width:97%;
+}
+.imagelink{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+title-name{
+    display: flex;
+    flex-direction: column;
+}
+me-info{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 top-nav{
     display: flex;
