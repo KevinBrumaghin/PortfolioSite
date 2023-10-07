@@ -11,7 +11,16 @@
 </head>
 <body>
     <div id="root"></div>
+    <script type="module">
+        import RefreshRuntime from 'http://localhost:5173/@react-refresh'
+        RefreshRuntime.injectIntoGlobalHook(window)
+        window.$RefreshReg$ = () => {}
+        window.$RefreshSig$ = () => (type) => type
+        window.__vite_plugin_react_preamble_installed__ = true
+      </script>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="http://localhost:5173/@vite/client"></script>
+    <script type="module" src="http://localhost:5173/main.jsx"></script>
     <link href="https://db.onlinewebfonts.com/c/e2a04c0988cc2b42ed31cfa6a9dea6cd?family=Moderne" rel="stylesheet" type="text/css"/>
 </body>
 </html>
