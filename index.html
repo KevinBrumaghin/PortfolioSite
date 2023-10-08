@@ -10,6 +10,12 @@
     <title>Kevin Brumaghin - Front End Web Developer</title>
 </head>
 <body>
+    <script>
+        window.addEventListener('load', () => {
+            const loader = document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+        })
+    </script>
     <div className='loader'></div>
     <me-info>
         <a class="imagelink" href="https://github.com/KevinBrumaghin"><img src="pics/icons8-github-100.png" alt="GitHub"></a>
