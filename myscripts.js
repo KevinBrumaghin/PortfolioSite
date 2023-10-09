@@ -1,5 +1,5 @@
 //Loading Spinner
 window.addEventListener('load', function () {
   const loaderContainer = document.querySelector('.loader-container');
-  loaderContainer.style.visibility = 'hidden';
+  loaderContainer.classList.add("loader-hidden");
 });    
